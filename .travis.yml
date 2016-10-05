@@ -1,0 +1,17 @@
+{
+  "language": "shell",
+  "os": "osx",
+  "osx_image": "xcode8",
+  "env": "global=",
+  "before_install": [
+    "date -u",
+    "uname -a",
+    "env | sort"
+  ],
+  "script": [
+    "xcodebuild -version"
+  ],
+  "group": "stable",
+  "dist": "precise"
+}
+
