@@ -9,7 +9,7 @@
     "env | sort"
   ],
   "script": [
-    "xcodebuild -version"
+    "xcodebuild -list"
   ],
   "group": "stable",
   "dist": "precise"
